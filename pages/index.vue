@@ -57,7 +57,7 @@ export default {
         this.isSending = true;
         this.feedbackHeader = "Hang on...";
         this.feedbackMessage = "We're sending your message...";
-        this.$axios.post("http://localhost/email/index.php", {
+        this.$axios.post("sender.php", {
           "email": this.email,
           "message": this.message,
           "subject": this.subject,

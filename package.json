@@ -1,0 +1,28 @@
+{
+  "name": "php-ecommerce-microservice",
+  "version": "0.0.1",
+  "description": "helper endpoints for sending emails",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "licenses": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vohzd/php-ecommerce-microservice.git"
+  },
+  "keywords": [
+    "buy"
+  ],
+  "author": "vohzd",
+  "bugs": {
+    "url": "https://github.com/vohzd/php-ecommerce-microservice/issues"
+  },
+  "homepage": "https://github.com/vohzd/php-ecommerce-microservice#readme",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.3",
+    "nuxt": "^2.2.0",
+    "semantic-ui": "^2.4.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-vue": "^0.5.0"
+  }
+}

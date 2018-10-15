@@ -21,8 +21,12 @@ module.exports = {
     'semantic-ui-vue/nuxt'
   ],
   axios: {
-    baseURL: "/",
+    baseURL: "/email",
     proxyHeaders: false,
     credentials: true
-  }
+  },
+  mode: "spa",
+  router: {
+    base: "/email",
+  },
 }

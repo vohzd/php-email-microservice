@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "helper endpoints for sending emails",
   "scripts": {
-    "dev": "nuxt"
+    "dev": "nuxt",
+    "generate": "nuxt generate"
   },
   "licenses": "MIT",
   "repository": {

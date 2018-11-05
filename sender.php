@@ -39,10 +39,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST"){
   $domain = "vohzd.com";
 
   $result = $mailgun->sendMessage($domain, array(
-    "from"    => $decoded["name"] . " " . $decoded["email"],
-    "to"      => "<allobon@gmail.com>",
+    "from"    => $decoded["fromName"] . " " . $decoded["fromEmail"],
+    "to"      => $decoded["toEmail"],
     "subject" => $decoded["subject"],
-    "text"    => $decoded["message"]
+    "html"    => $decoded["html"]
   ));
 
   echo json_encode(array("success" => true ));
